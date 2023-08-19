@@ -1,4 +1,8 @@
 # deafzx.github.io
+Welcome to our  meticulously crafted  project that has been made for the Quantathon Hackathon event. In the spirit of intense competition and rapid innovation, we're excited to deploy our solution - AArogya the diet plannner , that tackles real-world health and lifestyle challenges. Our project seamlessly combines a personalized diet planner, BMI calculator, live blog updates, and meal recommendations to champion a healthier way of life. Join us on this exhilarating journey, specially designed for the Hackathon, where innovation knows no bounds.
+
+
+
  Disclaimer :
  For optimal performance of the website use it in incognito mode
  
