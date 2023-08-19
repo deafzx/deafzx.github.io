@@ -1,0 +1,35 @@
+{
+  "name": "weekly-dinner-planner",
+  "version": "1.0.0",
+  "description": "Web application of my own idea, my very first app created entirely by me to practice JS and CSS.",
+  "main": "src/index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MokkaKowalewska/weekly-dinner-planner.git"
+  },
+  "author": "Monika Kowalewska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MokkaKowalewska/weekly-dinner-planner/issues"
+  },
+  "homepage": "https://github.com/MokkaKowalewska/weekly-dinner-planner#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-watch": "^6.0.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7"
+  }
+}

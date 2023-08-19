@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+  <head>
+    <meta charset="utf-8" />
+
+   
+    <title>Diet Planner :AAROGYA</title>
+    <meta name="title" content="Diet Planner :AAROGYA" />
+    <meta
+      name="description"
+      content="AAROGYA:Simplifying Healthy Eating for YoU."
+    />
+
+    
+    <meta property="og:type" content="website" />
+    
+    <meta
+      property="og:title"
+      content="Weekly Dinner Planner by AAROGYA
+    />
+    <meta
+      property="og:description"
+      content="Simple app, made to help planning dinners for current
+    week."
+    />
+    <meta
+      property="og:image"
+      content="https://weeklydinnerplanner.monikakowalewska.pl/images/wdp-og.png"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <!-- Favicons  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicons/site.webmanifest" />
+
+    <!-- CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    
+    
+  </head>
+  <body>
+    <header>
+      
+      <h1 class="title animated fadeInDown">AAROGYA:Healthy Eating For us</h1>
+      <div class="logo"></div>
+      
+
+      
+      
+    </header>
+  
+    
+   
+
+    <div class="gridContainer">
+      <div class="favMeals animated fadeInDown">
+        <h2 class="favMeals__title sectionTitle">Please Add your Desired Meal here</h2>
+        <form class="favMeals__form">
+          <input
+            type="text"
+            placeholder="add a meal..."
+            class="favMeals__input input box"
+            autofocus
+          />
+          <input type="submit" value="add" class="favMeals__button btn box" />
+        </form>
+        <div class="favMeals__ulWrapper">
+          <ul class="favMeals__ul"></ul>
+        </div>
+      </div>
+      <div class="letsPlan animated fadeInDown">
+        <h2 class="letsPlan__title sectionTitle">let's plan!</h2>
+        <form class="letsPlan__form" method="POST">
+          <div class="letsPlan__grid" id="letsPlan">
+            <label for="mon" class="day"></label>
+            <select id="mon" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="tue" class="day"></label>
+            <select id="tue" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="wed" class="day"></label>
+            <select id="wed" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="thu" class="day"></label>
+            <select id="thu" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="fri" class="day"></label>
+            <select id="fri" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="sat" class="day"></label>
+            <select id="sat" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+            <label for="sun" class="day"></label>
+            <select id="sun" class="letsPlan__select box">
+              <option value="" disabled selected>choose meal...</option></select
+            >
+          </div>
+
+          <div class="emailWrapper">
+            <p class="form__p">get Consultation via MAIL</p>
+            <label for="email" class="form__label">email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form__email input box validate"
+              pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+              required
+            />
+            <p class="form__errorMsg"></p>
+            <div class="form__permission">
+              <label for="checkbox" class="permission__label">
+                <input
+                  type="checkbox"
+                  name="permission"
+                  id="checkbox"
+                  value="true"
+                  class="permission__checkbox validate"
+                  required
+                />
+                I understand that my email address will be used 
+                exclusively for the purpose of delivering weekly dinner planning content By Aarogya.
+              </label>
+              <p class="form__errorMsg"></p>
+            </div>
+            <input
+              type="submit"
+              name="form__btn"
+              class="form__btn btn box"
+              value="send it!"
+            /><span class="form__status"></span>
+          </div>
+        </form>
+      </div>
+    
+    <div class="bmi-calculator">Customised Calories Burnout Plan</div>
+    <div class="blog">Daily Health Journal</div>
+    <script src="src/main.js"></script>
+   
+
+      <section class="getInspired animated fadeInDown">
+        <h2 class="getInspired__title sectionTitle">More to goooo.....</h2>
+        <p class="getInspired__caption">
+          Compose a meal and seek inspirations that align with your input. Should there be no matches, 
+          you'll discover a range of random recipes to fuel your imagination!
+        </p>
+        <div class="recipe-item">
+          <img src="images/easy pialla.webp" alt="Food photo" class="recipe__img" />
+          <div class="recipe__title">Easy paella</div>
+          <a href="https://www.bbcgoodfood.com/recipes/easy-paella" class="recipe__link">Read Recipe</a>
+        </div>
+      
+        <div class="recipe-item">
+          <img src="images/egg1.webp" alt="Food photo" class="recipe__img" />
+          <div class="recipe__title">Spiced scrambled eggs</div>
+          <a href="https://www.bbcgoodfood.com/recipes/spiced-scrambled-eggs" class="recipe__link">Read Recipe</a>
+        </div>
+      
+        <div class="recipe-item">
+          <img src="images/c1.webp" alt="Food photo" class="recipe__img" />
+          <div class="recipe__title">Crispy sesame lemon chicken</div>
+          <a href="https://www.bbcgoodfood.com/recipes/crispy-sesame-lemon-chicken" class="recipe__link">Read Recipe</a>
+        </div>
+        
+        
+        
+    </div>
+    <script src="/dist/bundle.js" type="module"></script>
+  </body>
+</html>
